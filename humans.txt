@@ -1,8 +1,22 @@
+                            
+Web Dev: Luis Rodriguez
+Site: say.hi@luigisrs.me
+Twitter: luigisrs
+Location: Ciudad, Comunidad, País.
+
+
+
+
 /* Foundation was made by ZURB, an interaction design and design strategy firm in Campbell, CA */
 /* zurb.com */
 /* humanstxt.org */
 
 /* SITE */
+  Last update: 2013/09/17
   Standards: HTML5, CSS3
   Components: jQuery, Orbit, Reveal
-  Software: Coda, Textmate, Git
+  Software: Sublime Text 2, Git
+
+
+
+

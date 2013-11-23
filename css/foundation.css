@@ -33,6 +33,17 @@ embed {
   max-width: 100%;
   height: auto; }
 
+/*Mine*/
+.no-padding {
+  padding-left: 0px !important; /* change the values to anything that you want */
+  padding-right: 0px !important;
+}
+
+/*Not mine Anymore*/
+
+
+
+
 object,
 embed {
   height: 100%; }
@@ -1046,11 +1057,21 @@ a {
   a img {
     border: none; }
 
+a.social {
+  color: #222222;
+  text-decoration: none;
+  line-height: inherit; }
+  a:hover, a:focus {
+    color: #2795b6; }
+  a img {
+    border: none; }
+
+
 /* Default paragraph styles */
 p {
   font-family: inherit;
   font-weight: normal;
-  font-size: 1em;
+  font-size: 0.9em;
   line-height: 1.6;
   margin-bottom: 1.25em;
   text-rendering: optimizeLegibility; }
@@ -1123,14 +1144,14 @@ code {
 ul,
 ol,
 dl {
-  font-size: 1em;
+  font-size: 0.8em;
   line-height: 1.6;
   margin-bottom: 1.25em;
   list-style-position: outside;
   font-family: inherit; }
 
 ul, ol {
-  margin-left: 0; }
+  margin-left: 20px; }
 
 /* Unordered Lists */
 ul li ul,
