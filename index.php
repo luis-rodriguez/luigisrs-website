@@ -20,7 +20,7 @@
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script type="text/javascript" src="js/flickr.js"></script>
 
-  
+
 
 
 <!--   Look for https://github.com/stevenschobert/instafeed.js

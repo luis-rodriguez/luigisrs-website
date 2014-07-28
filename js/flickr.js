@@ -8,8 +8,8 @@
 			$.each( data.items, function( i, item ) {
 				$( "<div>" ).attr("id",i).attr( "class", "large-3 small-6 columns no-padding column").appendTo("#images");
 				$("<a>").attr("href",item.link).attr("id","img"+i).appendTo("#"+i);
-				$( "<img>" ).attr( "src", item.media.m ).appendTo("#img"+i);
-				if ( i === 7 ) {
+				$( "<img>" ).attr("height",43).attr( "src", item.media.m ).appendTo("#img"+i);
+				if ( i === 3 ) {
 					return false;
 				}
 			});
