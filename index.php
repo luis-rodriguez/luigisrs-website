@@ -51,7 +51,7 @@
         </h1>
       </li>
     </ul>
- 
+ <br><br><br> 
     
   </nav>
  
@@ -62,67 +62,49 @@
  
       <div class="row">
         <div class="large-12 columns">
-          <div class="row">
-
             <!-- About Me -->
             <div class="large-4 small-12 columns">
- 
               <h4>About Me</h4><hr>
- 
               <div class="row">
                 <div class="large-12 columns">
-
-                	
                 	<img src="img/LuisRodriguez.jpg"> <hr>
-                	
-
-                	
-                  <p style="text-align:justify;">Student in Computer Engineering at the National Autonomous University of Mexico (UNAM), Chief Technology Ofﬁcer at AITS Consulting, IT Solutions Company based in Mexico City, Specialised 
-                  in custom software development for small business. Expertise with project management and 
-                  process optimisation. Research assistant at CPLD Lab. from UNAM’s school of Engineering. 
+                  <p style="text-align:justify;">Former Senior Development Supervisor at Linio, the largest online retail store in Latin America. Expertise with back and front end development, API development and Product Design. Senior Computer Engineering student at the National Autonomous University of Mexico (UNAM). Project Management Professional Candidate. Research assistant at CPLD Lab. from UNAM’s school of Engineering. 
                   </p>
                   <h6 class="subheader">Contact:</h6> say.hi[at]luigisrs.me
                 </div>
               </div>
             </div>
-            <!-- End About Me -->
- 
- 			<!-- Work -->
+            
+       			<!-- Work -->
             <div class="large-4 small-12 columns">
- 
-              <h4>Work</h4><hr>
- 
-              <div class="row">
-                <div class="large-12 columns">
-                  <h5 class="subheader">CTO  at <a href="http://aits.mx" target="_BLANK">AITS Consulting</a></h5>
-                  <p>México, D.F. January 2013 - Present
-                    <ul>
-                      <li>Corporate Sites Development and Online Stores implementation, focusing on UX and Project Development Activities.</li>
-                      <li>Development Team Planning and Leadership.</li>
-                    </ul>
-                  </p>
+              <h4>Work</h4>
+                <hr>
+              <h5 class="subheader">Sr. Developer  at <a href="http://linio.com" target="_BLANK">Linio</a></h5>
+                  <ul>
+                    <li>Back-end Development on API endpoints for mobile apps.</li>
+                    <li>Back-end Development for Alice 2.0, The new site for the 8 countries Linio has presence in, Improving performance, payment methods and reducing downtime.  </li>
+                    <li>Front-end Development for early stages of Alice 2.0.</li>
+                  </ul>
+                  <p></p>
                   <h5 class="subheader">Research Assistant at <a href="http://ingenieria.unam.mx" target="_BLANK">UNAM</a></h5>
-                  <p>México, D.F. September 2013 - Present
-                    <ul>
+                  <p>
+                    </p><ul>
                       <li>Identify and formalize research questions.</li>
                       <li>Design and manage analyses. System Design.</li>
                       <li>Writing and presenting research results.</li>
                     </ul>
-                  </p>
+                  <p></p>
                   <h5 class="subheader">Senior ITS Manager at <a href="http://ailum.org" target="_BLANK">AILUM A.C.</a></h5>
-                  <p>México, D.F. September 2013 - Present
-                    <ul>
+                  <p>
+                    </p><ul>
                       <li>Website Development and Maintenance.</li>
                       <li>Media and Press Communications.</li>
                     </ul>
-                  </p>
-
-                  
-
-                </div>
-              </div><br><br><br> 
+                  <p></p>
+                  <br><br><br> 
             </div>
 
+            <!-- Education  -->
             <div class="large-4 small-12 columns">
               <h4>Education & Research </h4><hr>
 
@@ -135,58 +117,28 @@
                   <p>We study the use of data visualisations to help community leaders find the right candidates for their various events and tasks for social good.</p>
               <h5 class="subheader">Conceptualising Technologies to Support Collaboration and Coordination of Volunteers</h5>
                   <p>This work analyses the needs of participants and organizers of volunteer events, to design technology that can help both parties in their tasks and goals. </p>
-
             </div>
-          </div>
-
+            
         </div>
-      </div>
+      </div>        
 
-
+      <hr>
       <div class="row">
         <div class="large-12 small-12">
-              
-              <h4>Data Feed</h4><hr>
-              
-              <div class="large-4 small-12 columns">
-                <div class="panel">
-                  <h5><i class="foundicon-rss"></i> Blog</h5>
-                    <h6 class="subheader">
-                    <?php
-                      include('php/rssclass.php');
-                      $feedlist = new rss('http://luigisrs.me/blog/?feed=rss2');
-                      echo $feedlist->display(1," ");
-                    ?>
-                    </h6>
-                <a href="http://blog.luigisrs.me">More»</a>
-                </div>
+              <h4>Places</h4>
+              <div class="large-12 small-12">
+              <h4>
+                <a class="social" href="http://github.com/luis-rodriguez"><i class="foundicon-github"></i></a> 
+                <a class="social" href="http://facebook.com/luigisrs"><i class="foundicon-facebook"></i></a> 
+                <a class="social" href="http://instagram.com/luigisrs"><i class="foundicon-instagram"></i></a> 
+                <a class="social" href="http://www.linkedin.com/profile/view?id=36906535&trk=tab_pro"><i class="foundicon-linkedin"></i></a>
+                <a class="social" href="http://flickr.com/luigisrs"><i class="foundicon-flickr"></i></a> 
+                <a class="social" href="http://tumblr.luigisrs.me"><i class="foundicon-tumblr"></i></a>
+                <a class="social" href="http://blog.luigisrs.me"><i class="foundicon-rss"></i></a>
+                <a class="social" href="http://twitter.com/luigisrs"><i class="foundicon-twitter"></i></a>
+              </h4>
               </div>
-
-              <div class="large-4 small-12 columns">
-                <div class="panel">
-                  <h5><i class="foundicon-twitter"></i> Twitter</h5>
-                  <h6 class="subheader">
-                   <?php 
-                    include('php/twitter.php');
-                    echo getTweets('luigisrs', 1);
-                   ?> 
-                  </h6>
-                  <br> <a href="http://twitter.com/luigisrs">More»</a>
-                </div>
-              </div>
-
-              <div class="large-4 small-12 columns">
-                <div class="panel">
-                  <h5><i class="foundicon-flickr"></i> Flickr</h5>
-                  <div id="images"></div>
-                  <hr><a href="http://www.flickr.com/luigisrs">More»</a>
-                  
-                  
-                </div>
-              </div>
-
-          </div>
-
+        </div>
       </div>
 
  
@@ -198,27 +150,9 @@
       <footer class="row">
         <div class="large-12 columns"><hr>
             <div class="row">
- 
               <div class="large-6 columns">
-                  <p><a class="social" href="http://facebook.com/luigisrs"><i class="foundicon-facebook"></i></a> 
-        <a class="social" href="http://instagram.com/luigisrs"><i class="foundicon-instagram"></i></a> 
-        <a class="social" href="http://www.linkedin.com/profile/view?id=36906535&trk=tab_pro"><i class="foundicon-linkedin"></i></a> 
-        <a class="social" href="http://flickr.com/luigisrs"><i class="foundicon-flickr"></i></a> 
-        <a class="social" href="http://tumblr.luigisrs.me"><i class="foundicon-tumblr"></i></a>    &copy; <script>document.write(new Date().getFullYear())</script>. Luis Rodríguez</p>
-
+                  <p>&copy; <script>document.write(new Date().getFullYear())</script>. Luis Rodríguez</p>
               </div>
-
-
- 
-              <!-- <div class="large-6 small-12 columns">
-                  <ul class="inline-list right">
-                    <li><a href="#">Link 1</a></li>
-                    <li><a href="#">Link 2</a></li>
-                    <li><a href="#">Link 3</a></li>
-                    <li><a href="#">Link 4</a></li>
-                  </ul>
-              </div> -->
- 
             </div>
         </div>
       </footer>
